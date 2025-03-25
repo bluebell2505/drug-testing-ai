@@ -1,0 +1,5 @@
+numpy==1.23.5       # Downgrade to fix TensorFlow compatibility
+pandas==2.0.3
+rdkit-pypi==2022.9.5
+tensorflow==2.12.0
+flask==2.3.2
