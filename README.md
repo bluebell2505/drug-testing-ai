@@ -25,5 +25,5 @@ A modern AI/ML platform to predict drug properties (ADMET, solubility, toxicity)
 ### Installation  
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/bluebell/ai-drug-testing-platform.git
+   git clone https://github.com/bluebell2505/ai-drug-testing-platform.git
    cd ai-drug-testing-platform
