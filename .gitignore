@@ -1,0 +1,75 @@
+# --- General ---
+.DS_Store
+*.log
+.env
+.env.local
+.env.development
+.env.production
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Frontend (React/Next.js) ---
+/node_modules
+/.next
+/out
+.next/
+.next/cache/
+.next/standalone/
+.next/swc/
+.next/trace
+.next/types/**/*.d.ts
+/build
+/public/build
+*.css.map
+*.js.map
+
+# --- Backend (Python) ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.swp
+*.swo
+venv/
+env/
+.pytest_cache/
+*.sqlite3
+*.db
+logs/
+
+# --- Backend (Node.js) ---
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# --- ML Models (Python/Jupyter) ---
+.ipynb_checkpoints/
+*.ipynb
+ml-model/data/  # Ignore datasets (if stored locally)
+ml-model/checkpoints/  # Model training checkpoints
+ml-model/results/
+
+# --- Docker ---
+docker-compose.override.yml
+**/docker-compose*.yml
+**/dockerfile*.yml
+
+# --- Google Cloud / Terraform ---
+.gcp/
+*.key.json  # Service account keys
+**/terraform.tfstate
+**/terraform.tfstate.backup
+.terraform.lock.hcl
+.terraform/
+
+# --- IDE Specific ---
+.vscode/settings.json
+.idea/workspace.xml
+.idea/modules.xml
+
+# --- Testing ---
+cypress/videos/
+cypress/screenshots/
