@@ -2,7 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '.././hooks/use-toast';
 import Navbar from '.././components/Navbar';
 import Sidebar from '.././components/Sidebar';
 import Footer from '.././components/Footer';

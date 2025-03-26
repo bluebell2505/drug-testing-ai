@@ -5,10 +5,10 @@ import Sidebar from '.././components/Sidebar';
 import Footer from '.././components/Footer';
 import { Button } from '.././components/ui/button';
 import { Beaker, Atom, GitBranch, Database, ArrowRight } from 'lucide-react';
-import { useToast } from "@/hooks/use-toast";
+import { useToast } from ".././hooks/use-toast";
 import { Input } from '.././components/ui/input';
 import { Label } from '.././components/ui/label';
-import { useIsMobile } from '@/hooks/use-mobile';
+import { useIsMobile } from '.././hooks/use-mobile';
 
 const MoleculeGenerator: React.FC = () => {
   const [isGenerating, setIsGenerating] = useState(false);

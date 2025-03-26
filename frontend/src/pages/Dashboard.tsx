@@ -5,9 +5,9 @@ import Sidebar from '.././components/Sidebar';
 import Footer from '.././components/Footer';
 import { Button } from '.././components/ui/button';
 import { Link, useNavigate } from 'react-router-dom';
-import { cn } from '@/lib/utils';
+import { cn } from '.././lib/utils';
 import { Beaker, ArrowRight, Folder } from 'lucide-react';
-import { useIsMobile } from '@/hooks/use-mobile';
+import { useIsMobile } from '.././hooks/use-mobile';
 
 const Dashboard: React.FC = () => {
   const navigate = useNavigate();
