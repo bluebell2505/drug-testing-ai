@@ -37,7 +37,7 @@ import {
   CheckCircle,
   Target
 } from 'lucide-react';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '.././hooks/use-toast';
 import { EditProfileModal } from '.././components/EditProfileModal';
 
 // Mock data for the profile

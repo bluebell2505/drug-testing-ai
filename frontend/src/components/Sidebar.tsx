@@ -2,8 +2,8 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Home, Folder, Beaker, BarChart2, Settings } from 'lucide-react';
-import { cn } from '@/lib/utils';
-import { useIsMobile } from '@/hooks/use-mobile';
+import { cn } from '.././lib/utils';
+import { useIsMobile } from '.././hooks/use-mobile';
 
 const Sidebar: React.FC = () => {
   const location = useLocation();

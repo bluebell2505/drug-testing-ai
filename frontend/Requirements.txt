@@ -3,3 +3,14 @@ clsx
 react-router-dom
 lucide-react
 react-hook-form
+radix-ui
+class-variance-authority
+react-day-picker
+@radix-ui/react-accordion
+embla-carousel-react
+recharts
+cmdk
+vaul
+input-otp
+react-resizable-panels
+sonner

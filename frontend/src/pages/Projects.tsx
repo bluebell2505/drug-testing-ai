@@ -5,7 +5,7 @@ import Sidebar from '.././components/Sidebar';
 import Footer from '.././components/Footer';
 import { Button } from '.././components/ui/button';
 import { useNavigate } from 'react-router-dom';
-import { cn } from '@/lib/utils';
+import { cn } from '.././lib/utils';
 import { Folder, Plus, FileText, EyeIcon } from 'lucide-react';
 
 const Projects: React.FC = () => {
