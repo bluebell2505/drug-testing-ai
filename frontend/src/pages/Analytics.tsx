@@ -1,8 +1,8 @@
 
 import React from 'react';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
+import Navbar from '.././components/Navbar';
+import LoginForm from '.././components/LoginForm';
+import Footer from '.././components/Footer';
 import { BarChart2, TrendingUp, Atom, Activity } from 'lucide-react';
 
 const Analytics: React.FC = () => {

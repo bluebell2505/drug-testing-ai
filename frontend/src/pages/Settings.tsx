@@ -1,10 +1,10 @@
 
 import React from 'react';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
+import Navbar from '.././components/Navbar';
+import Sidebar from '.././components/Sidebar';
+import Footer from '.././components/Footer';
 import { Settings as SettingsIcon, User, Database, Bell, Shield, Info } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { Button } from '.././components/ui/button';
 
 const Settings: React.FC = () => {
   return (

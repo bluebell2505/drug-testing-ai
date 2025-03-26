@@ -1,14 +1,14 @@
 
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
+import Navbar from '.././components/Navbar';
+import Sidebar from '.././components/Sidebar';
+import Footer from '.././components/Footer';
 import { 
   Avatar, 
   AvatarFallback, 
   AvatarImage 
-} from '@/components/ui/avatar';
+} from '.././components/ui/avatar';
 import { 
   Button,
   Card,
@@ -20,7 +20,7 @@ import {
   Alert,
   AlertTitle,
   AlertDescription
-} from '@/components/ui';
+} from '.././components/ui';
 import { 
   BarChart3, 
   Medal, 
@@ -38,7 +38,7 @@ import {
   Target
 } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
-import { EditProfileModal } from '@/components/EditProfileModal';
+import { EditProfileModal } from '.././components/EditProfileModal';
 
 // Mock data for the profile
 const profileData = {

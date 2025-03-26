@@ -3,12 +3,12 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import { useToast } from '@/hooks/use-toast';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Textarea } from '@/components/ui/textarea';
+import Navbar from '.././components/Navbar';
+import Sidebar from '.././components/Sidebar';
+import Footer from '.././components/Footer';
+import { Button } from '.././components/ui/button';
+import { Input } from '.././components/ui/input';
+import { Textarea } from '.././components/ui/textarea';
 import { 
   Form, 
   FormControl, 
@@ -16,16 +16,16 @@ import {
   FormItem, 
   FormLabel, 
   FormMessage 
-} from '@/components/ui/form';
+} from '.././components/ui/form';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from '@/components/ui/select';
-import { Checkbox } from '@/components/ui/checkbox';
-import { Label } from '@/components/ui/label';
+} from '.././components/ui/select';
+import { Checkbox } from '.././components/ui/checkbox';
+import { Label } from '.././components/ui/label';
 import { ArrowLeft } from 'lucide-react';
 
 // Mock existing project names for validation

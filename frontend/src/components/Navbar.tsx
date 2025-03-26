@@ -1,8 +1,8 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { cn } from '@/lib/utils';
-import { useToast } from "@/hooks/use-toast";
+import { cn } from '.././lib/utils';
+import { useToast } from ".././hooks/use-toast";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -10,7 +10,7 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
+} from ".././components/ui/dropdown-menu";
 
 const Navbar: React.FC = () => {
   const { toast } = useToast();

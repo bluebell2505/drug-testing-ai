@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
+import Navbar from '.././components/Navbar';
+import Sidebar from '.././components/Sidebar';
+import Footer from '.././components/Footer';
 import { ArrowLeft, Settings } from 'lucide-react';
-import { Button, Card, CardContent, CardHeader, CardTitle } from '@/components/ui';
+import { Button, Card, CardContent, CardHeader, CardTitle } from '.././components/ui';
 
 const MoleculePreview: React.FC = () => {
   const { projectId } = useParams<{ projectId: string }>();

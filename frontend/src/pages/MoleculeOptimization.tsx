@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import Navbar from '@/components/Navbar';
-import Sidebar from '@/components/Sidebar';
-import Footer from '@/components/Footer';
+import Navbar from '.././components/Navbar';
+import Sidebar from '.././components/Sidebar';
+import Footer from '.././components/Footer';
 import { useToast } from '@/hooks/use-toast';
 import { 
   ArrowLeft, 
@@ -23,7 +23,7 @@ import {
   CardDescription,
   Checkbox,
   Label,
-} from '@/components/ui';
+} from '.././components/ui';
 
 interface Molecule {
   id: number;

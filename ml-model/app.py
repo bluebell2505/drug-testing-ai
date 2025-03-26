@@ -2,9 +2,13 @@ from flask import Flask, request, jsonify
 import numpy as np
 from rdkit import Chem
 from rdkit.Chem import Descriptors
-import os  # <-- Add this line!
+import os
 
-app = Flask(__name__)
+app = Flask(__name__)  
+
+@app.route('/')
+def home():
+    return "ML Model Service is Running. Use /predict endpoint with POST requests."
 
 # Example ML prediction function (replace with your actual model)
 def predict_properties(smiles):
@@ -27,5 +31,5 @@ def predict():
     return jsonify(results)
 
 if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 8080))  # Now works with `os` imported
+    port = int(os.environ.get('PORT', 8080))
     app.run(host='0.0.0.0', port=port)
