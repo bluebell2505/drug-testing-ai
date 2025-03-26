@@ -1,4 +1,4 @@
-name: Deploy to GCP
+name: Deploy to GCP  # <-- This defines the workflow name
 
 on:
   push:
@@ -6,13 +6,10 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest  # GitHub Actions uses Linux runners; no Windows-specific issues here.
-
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          lfs: false  # Avoid Git LFS issues on Windows
 
       - name: Authenticate with Google Cloud
         uses: google-github-actions/auth@v2
@@ -30,8 +27,8 @@ jobs:
 
       - name: Deploy to Cloud Run
         run: |
-          gcloud run deploy backend-service `
-            --image=asia-south1-docker.pkg.dev/drug-discovery-ai/drug-testing-repo/backend-app:latest `
-            --platform=managed `
-            --region=asia-south1 `
+          gcloud run deploy backend-service \
+            --image=asia-south1-docker.pkg.dev/drug-discovery-ai/drug-testing-repo/backend-app:latest \
+            --platform=managed \
+            --region=asia-south1 \
             --allow-unauthenticated
